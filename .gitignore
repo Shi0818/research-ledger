@@ -1,0 +1,19 @@
+# 账本数据绝不入库：里面是真实的批次名、分母和数字
+ledger/
+ledger.jsonl
+manifest.json
+conflicts.jsonl
+*.jsonl
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# 系统
+.DS_Store
+Thumbs.db
+
+# 本地草稿
+*.docx
+*.local.md
